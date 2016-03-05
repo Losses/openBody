@@ -1,0 +1,19 @@
+//edit the following data and rename this file to config.json
+
+{
+    "account": {
+        "mshr": {
+            "username": "lovely@microsoft.account",
+            "password": "verySecrectPassword"
+        }
+    },
+    // If you are using Windows, please fill this filed like "C:/R/bin/Rscript"
+    // NOTICE: use Rscript, not R or Rterm!
+    "RLocation": "Rscript", 
+    "syncDaysDely": 2,
+    "disableSSLVerify": true,
+    "dateFrom": "2015-12-14",
+    "scheduleString": "at 0:00am",
+    "UTC": 8,
+    "port": 3000
+}

@@ -1,0 +1,75 @@
+.introduce .content{
+    height:100vh;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    display:flex;
+}
+
+.introduce .content .avatar,
+.introduce .content .description{
+    margin: 0 3vw;
+    margin-top:43px;
+}
+
+.introduce .content .avatar{
+  min-width:220px;
+  max-width:300px;
+  min-height:280px;
+  background-size: contain !important;
+  flex:1;
+}
+
+.introduce .content .avatar.writer{
+  background:url('/assets/imgs/avatar.png') center no-repeat;
+}
+
+.introduce .content .avatar.not_found{
+  background:url('/assets/imgs/404.png') center no-repeat;
+}
+
+.introduce .content .description{
+  min-width:450px;
+  max-width:720px;
+  max-height:350px;
+  font-size:15px;
+  line-height:2em;
+  flex:2;
+  align-items: center;
+  display:flex;
+}
+
+.introduce .content .description h2{
+    font-size:25px;
+    line-height:3em;
+}
+
+.introduce .download{
+    width:140px;
+    padding:10px 10px;
+    margin:30px auto;
+    text-align:center;
+    line-height:1.8em;
+    background:#8bc34a;
+    color:white;
+    box-shadow:0;
+    display:block;
+    transition: all 300ms;
+}
+
+.introduce .download:hover{
+    box-shadow:0 2px 14px 0 rgba(0,0,0,.16);
+    box-shadow:0 2px 9px 0 rgba(0,0,0,.26);
+}
+
+.introduce .download span{
+    display:block;
+}
+
+.introduce .download .text{
+    font-size:23px;
+}
+
+.introduce .download .size{
+    color:rgba(255,255,255,0.6);
+}

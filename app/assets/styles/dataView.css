@@ -1,0 +1,46 @@
+.data_view{
+    min-width:100%;
+}
+
+.data_view thead,
+.data_view tbody{
+    min-width:100%;
+}
+
+.data_view thead{
+    left:50px;
+    min-width:calc(100% - 50px);
+    background:#4291ff;
+    color:white;
+    position:fixed;
+    z-index:2;
+}
+
+.data_view tr{
+    min-width:100%;
+    height:43px;
+    line-height:43px;
+    flex-direction: row;
+    justify-content: space-around;
+    transform:scale(1);
+    box-shadow:0;
+    display:flex;
+    transition: all 300ms;
+} 
+
+.data_view tr:hover{
+    box-shadow:0 2px 14px 0 rgba(0,0,0,.16);
+    box-shadow:0 2px 9px 0 rgba(0,0,0,.26);
+    font-weight:bold;
+}
+
+.data_view td{
+    text-align:center;
+    display:block;
+}
+
+.data_view img{
+    width:20px;
+    height:20px;
+    margin: 11px;
+}

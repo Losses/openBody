@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+}
+
+body{
+    margin:0;
+    font-family:'titillium_webregular', serif;
+    font-size:13px;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+.pg_nav{
+    top:0;
+    left:0;
+    height:100%;
+    width:50px;
+    list-style:none;
+    background:#529aff;
+    position:fixed;
+    z-index:11;
+}
+
+.pg_nav .logo{
+    background:#388bff;
+}
+
+.pg_nav li{
+    width:50px;
+    height:23px;
+    padding:10px 0;
+    background:#529aff;
+    overflow:hidden;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    transition: 300ms;
+}
+
+.pg_nav li:hover{
+    width:120px;
+    background:#006aff;
+}
+
+.pg_nav a{
+    width:150px;
+    color:white;
+    line-height:20px;
+    display:block;
+}
+
+.pg_nav a:visited{
+    color:white;
+}
+
+.pg_nav a::before{
+    margin:0 15px;
+    font-size:20px;
+}
+
+.main{
+    min-width:calc(100% - 50px);
+    margin:0 0 0 50px;
+}
+
+.main_header{
+    top:0;
+    left:50px;
+    height:43px;
+    width: calc(100% - 43px);
+    background:#4291ff;
+    color:white;
+    z-index:10;
+    position:fixed;
+}
+
+.main_header a{
+    color:white;
+    text-decoration:none;
+}
+
+.main_header h1{
+    line-height:43px;
+    font-size:22px;
+    text-align:center;
+}
+
+.float_icon{
+    right:0;
+    bottom:80px;
+    width:90px;
+    height:50px;
+    border-radius:5px 0 0 5px;
+    color:white;
+    font-size:14px;
+    line-height:50px;
+    background:#388bff;
+    position:fixed;
+    cursor: pointer;
+}
+
+.float_icon a::before{
+    margin:0 15px;
+}
